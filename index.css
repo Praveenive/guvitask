@@ -1,0 +1,67 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    font-weight: bold;
+}
+
+.name-input {
+    display: flex;
+    
+}
+.first-name-input,
+.last-name-input {
+    display: flex;
+    flex-direction: column;
+}
+.first-name-input {
+    margin-right: 10px;
+}
+.required-symbol{
+    color:red;
+    font-weight: bold;
+}
+
+.small-label {
+    font-size: smaller;
+}
+
+form input,
+form input:focus,
+form input:active {
+    border: 1px solid rgb(197, 190, 190);
+    padding: 5px;
+}
+.length{
+    width:28%;
+}
+.fa{
+    color:orange;
+}
+.back,
+.center{
+    text-align:center;
+}
+.border{
+    border:1px solid black;
+    padding : 5px;
+}
+.space{
+    padding:5px;
+}
+.align{
+    display:flex;
+    flex:column;
+}
+.colr{
+    background-color:grey;
+}
+table {
+    
+    border-spacing: 0px;
+}

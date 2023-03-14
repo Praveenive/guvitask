@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form class="border">
+        <div class="field">
+            <div class="label">Name <span class="required-symbol">*</span></div>
+            <div class="name-input">
+                <div class="first-name-input">
+                    <input name="first_name" id="first-name" />
+                    <span class="small-label">First</span>
+                </div>
+                <div class="last-name-input">
+                    <input name="last_name" id="last-name" />
+                    <span class="small-label">Last</span>
+                </div>
+
+            </div>
+        </div><br>
+        <div class="field">
+            <div class="label">Email <span class="required-symbol">*</span></div>
+            <input name="email" id="email" class="length">
+        </div>
+        <div class="field"><br>
+            <div class="label">Your Experience<span class="required-symbol">*</span></div>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <br>
+            <div class="small-label">Overall,how would you rate your experience with us</div>
+        </div>
+        <div class="field"><br>
+            <div class="label">How satisfied are you with<span class="required-symbol">*</span></div>
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="center">Very unsatisfied</td>
+                    <td class="center">Unsatisfied</td>
+                    <td class="center">Neutral</td>
+                    <td class="center">Satisfied</td>
+                    <td class="center">Very satisfied</td>
+                </tr>
+                <tr class="colr">
+                    <td>Purchase</td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td>Service</td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+
+                </tr>
+                <tr class="colr">
+                    <td>Company overall</td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                </tr>
+
+            </table><br>
+            <div class="label">How satisfied are you with<span class="required-symbol">*</span></div>
+            <table>
+                <tr>
+                    <td></td>
+                    <td class="center">Very unlucky</td>
+                    <td class="center">Unlucky</td>
+                    <td class="center">Neutral</td>
+                    <td class="center">Lucky</td>
+                    <td class="center">Very Lucky</td>
+                </tr>
+
+                <tr class="colr">
+                    <td>Buy from us again</td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                </tr>
+                <tr>
+                    <td>Recommended our product to others</td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                </tr>
+                <tr class="colr">
+                    <td>Recommended our company to others</td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                    <td class="back"><input type="radio"></td>
+                </tr>
+
+            </table>
+        </div>
+        <br>
+        <div class="label">Additional comments or suggestions</div>
+        <textarea name="text" id="text" cols="2" rows="8"></textarea>
+        <div class="space"><button>Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
